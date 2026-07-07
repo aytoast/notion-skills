@@ -1,4 +1,4 @@
-# notion-skills
+# notion-git
 
 <p align="center">
   <strong>Git-style operations for Notion.</strong>
@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/aytoast/notion-skills/stargazers"><img src="https://img.shields.io/github/stars/aytoast/notion-skills?style=flat&color=yellow" alt="Stars"></a>
-  <a href="https://github.com/aytoast/notion-skills/commits/master"><img src="https://img.shields.io/github/last-commit/aytoast/notion-skills?style=flat" alt="Last commit"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/aytoast/notion-skills?style=flat" alt="License"></a>
+  <a href="https://github.com/aytoast/notion-git/stargazers"><img src="https://img.shields.io/github/stars/aytoast/notion-git?style=flat&color=yellow" alt="Stars"></a>
+  <a href="https://github.com/aytoast/notion-git/commits/master"><img src="https://img.shields.io/github/last-commit/aytoast/notion-git?style=flat" alt="Last commit"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/aytoast/notion-git?style=flat" alt="License"></a>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ---
 
-`notion-skills` brings the robust, frictionless mental model of Git to Notion. Instead of relying on buggy MCP connections or constantly querying the Notion API directly from an agent, you maintain a local Markdown replica of your workspace. 
+`notion-git` brings the robust, frictionless mental model of Git to Notion. Instead of relying on buggy MCP connections or constantly querying the Notion API directly from an agent, you maintain a local Markdown replica of your workspace. 
 
 Your IDE or AI agent can instantly index your local files with zero latency. When you are ready, you use Git-style Notion commands to push and pull changes between your local working directory and the remote Notion server.
 
@@ -59,7 +59,7 @@ Forget about configuring complex MCP gateways. Treat Notion as your remote sourc
 1. Clone this repository into your workspace or agent plugin directory:
 
    ```bash
-   git clone https://github.com/aytoast/notion-skills.git
+   git clone https://github.com/aytoast/notion-git.git
    ```
 
 2. Define your integration token in a `.env` file at the root of your workspace:
