@@ -15,10 +15,10 @@ def main():
         print("Usage: python notion.py <command> [args...]")
         print("Commands: clone, diff, pull, push")
         return
-        
+
     cmd = sys.argv[1].lower()
     args = sys.argv[2:]
-    
+
     if cmd == "clone":
         subprocess.run([sys.executable, CLONE_SCRIPT, *args])
     elif cmd == "pull":
